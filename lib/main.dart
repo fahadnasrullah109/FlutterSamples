@@ -19,7 +19,8 @@ void main() => runApp(MaterialApp(
         '/networkPosts': (context) => NetworkPostsScreen(),
         '/randomWords': (context) => RandomWords(),
         '/levelCounter': (context) => LevelCounter(),
-        '/userProfile' : (context) => UserProfileScreenOne()
+        '/userProfile1' : (context) => UserProfileScreenOne(),
+        '/userProfile2' : (context) => UserProfileScreenTwo()
       },
     ));
 
@@ -32,7 +33,8 @@ List<Example> getExamples() {
     Example(name: "Quotes ListView", pageRoute: "/quotesListView"),
     Example(name: "Network Posts ListView", pageRoute: "/networkPosts"),
     Example(name: "LevelCounter", pageRoute: "/levelCounter"),
-    Example(name: "User Profile", pageRoute: "/userProfile")
+    Example(name: "User Profile 1", pageRoute: "/userProfile1"),
+    Example(name: "User Profile 2", pageRoute: "/userProfile2")
   ];
   return examplesList;
 }
